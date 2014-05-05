@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="contact_attr">
+        <item>@array/contact_list_text</item>
+        <item>@array/contact_list_drawable</item>
+    </array>
+
+    <string-array name="contact_list_text">
+        <item>组织架构</item>
+        <item>多人会话</item>
+        <item>公共账号</item>
+        <item>我的收藏</item>
+    </string-array>
+
+    <array name="contact_list_drawable">
+        <item>@drawable/college_img_organization_normal</item>
+        <item>@drawable/college_img_group_normal</item>
+        <item>@drawable/college_img_public_normal</item>
+        <item>@drawable/college_img_collection_normal</item>
+    </array>
+
+</resources>

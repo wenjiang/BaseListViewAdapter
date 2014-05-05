@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="common_bg_frame_line">#dddddd</color>
+    <color name="common_bg_frame_white">#fafafa</color>
+    <color name="downloaded_annex_operation_bg">#dddddd</color>
+
+</resources>
