@@ -12,14 +12,19 @@ public final class R {
         public static final int contact_attr=0x7f040000;
         public static final int contact_list_drawable=0x7f040002;
         public static final int contact_list_text=0x7f040001;
+        public static final int setting_list_text=0x7f040003;
     }
     public static final class attr {
     }
     public static final class color {
+        public static final int background_color=0x7f050004;
         public static final int black=0x7f050000;
         public static final int common_bg_frame_line=0x7f050001;
         public static final int common_bg_frame_white=0x7f050002;
+        public static final int common_textcolor_fifthary=0x7f050006;
+        public static final int common_textcolor_secondary=0x7f050005;
         public static final int downloaded_annex_operation_bg=0x7f050003;
+        public static final int white=0x7f050007;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -30,38 +35,78 @@ public final class R {
          */
         public static final int activity_horizontal_margin=0x7f060000;
         public static final int activity_vertical_margin=0x7f060001;
+        public static final int common_bg_frame_line=0x7f060006;
+        public static final int common_font_pt_14=0x7f060004;
+        public static final int px7=0x7f060005;
+        public static final int setting_item_layout_height=0x7f060003;
+        public static final int setting_layout_margin_top=0x7f060002;
     }
     public static final class drawable {
-        public static final int college_img_collection_normal=0x7f020000;
-        public static final int college_img_group_normal=0x7f020001;
-        public static final int college_img_organization_normal=0x7f020002;
-        public static final int college_img_public_normal=0x7f020003;
-        public static final int discover_img_vector_normal=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int selector_listview_item=0x7f020006;
+        public static final int btn_loginout_select=0x7f020000;
+        public static final int btn_mydetail_select=0x7f020001;
+        public static final int check_off=0x7f020002;
+        public static final int college_img_collection_normal=0x7f020003;
+        public static final int college_img_group_normal=0x7f020004;
+        public static final int college_img_organization_normal=0x7f020005;
+        public static final int college_img_public_normal=0x7f020006;
+        public static final int common_btn_vector_normal=0x7f020007;
+        public static final int discover_img_vector_normal=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int menu_img_new_normal=0x7f02000a;
+        public static final int myinfo_detail_line=0x7f02000b;
+        public static final int selector_listview_item=0x7f02000c;
+        public static final int shape_common_frame_bg=0x7f02000d;
+        public static final int shape_common_frame_down_bg=0x7f02000e;
+        public static final int user_btn_exit_normal=0x7f02000f;
+        public static final int user_btn_exit_press=0x7f020010;
     }
     public static final class id {
-        public static final int action_settings=0x7f0a000f;
+        public static final int action_settings=0x7f0a0026;
         public static final int center_bottom_text=0x7f0a000b;
         public static final int center_layout=0x7f0a0009;
         public static final int center_top_text=0x7f0a000a;
         public static final int item_icon=0x7f0a0002;
         public static final int item_text=0x7f0a0003;
+        public static final int iv_call_remind=0x7f0a001a;
+        public static final int layout_about=0x7f0a0021;
+        public static final int layout_app_recommendation=0x7f0a0014;
+        public static final int layout_call_remind=0x7f0a0018;
+        public static final int layout_check_new=0x7f0a001b;
+        public static final int layout_clear_cache=0x7f0a0016;
+        public static final int layout_opinion=0x7f0a0012;
+        public static final int layout_setting=0x7f0a000f;
+        public static final int layout_update_user_index=0x7f0a001d;
         public static final int left_image=0x7f0a0008;
         public static final int left_layout=0x7f0a0006;
         public static final int left_text=0x7f0a0007;
         public static final int list=0x7f0a0000;
+        public static final int logout=0x7f0a0025;
         public static final int navOrgMenu=0x7f0a0001;
         public static final int navOrgMenu__lay_line=0x7f0a0004;
+        public static final int newsLevel=0x7f0a0023;
         public static final int out_layout=0x7f0a0005;
         public static final int right_image=0x7f0a000e;
         public static final int right_layout=0x7f0a000c;
         public static final int right_text=0x7f0a000d;
+        public static final int triangle_about=0x7f0a0024;
+        public static final int triangle_opinion_forward=0x7f0a0011;
+        public static final int triangle_update_user_index=0x7f0a001f;
+        public static final int tv_about=0x7f0a0022;
+        public static final int tv_app_recommendation=0x7f0a0015;
+        public static final int tv_call_remind=0x7f0a0019;
+        public static final int tv_check_new=0x7f0a001c;
+        public static final int tv_clear_cache=0x7f0a0017;
+        public static final int tv_opinion=0x7f0a0013;
+        public static final int tv_setting=0x7f0a0010;
+        public static final int tv_update_user_index=0x7f0a001e;
+        public static final int tv_update_user_index_time=0x7f0a0020;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int colleague_list_item=0x7f030001;
         public static final int common_list_item=0x7f030002;
+        public static final int feature_setting=0x7f030003;
+        public static final int setting_item=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f090000;

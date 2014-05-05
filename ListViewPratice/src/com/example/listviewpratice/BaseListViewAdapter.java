@@ -66,13 +66,12 @@ public class BaseListViewAdapter extends BaseAdapter {
 		}
 
 		if (mBaseList == null) {
-			mViewHolder.setListItem(position);
+			mViewHolder.setListItemIn(position);
 			return convertView;
 		}
 
 		Object item = mBaseList.get(position);
-		mViewHolder.setListItem(item);
+		mViewHolder.setListItemWith(item);
 		return convertView;
-
 	}
 }

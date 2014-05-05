@@ -4,24 +4,43 @@ import android.content.Context;
 import android.view.View;
 
 public abstract class BaseViewHolder {
-	protected View mConvertView;
-	protected ArrayParseUtil mArrayParseUtil;
+	private View mConvertView;
+	private ArrayAttributeExtractor mArrayAttributeExtractor;
 
 	public void setConvertView(View convertView) {
 		this.mConvertView = convertView;
 	}
 
-	public BaseViewHolder() {
-
+	public BaseViewHolder(Context context) {
+		this.mArrayAttributeExtractor = new ArrayAttributeExtractor(context);
 	}
 
 	public BaseViewHolder(Context context, int typedArrayId) {
-		this.mArrayParseUtil = new ArrayParseUtil(context, typedArrayId);
+		this.mArrayAttributeExtractor = new ArrayAttributeExtractor(context,
+				typedArrayId);
 	}
 
 	public int getCount() {
-		return mArrayParseUtil.getCount();
+		return mArrayAttributeExtractor.getCount();
 	}
 
-	public abstract void setListItem(Object item);
+	public void initTextArray(int textArrId) {
+		mArrayAttributeExtractor.initTextArray(textArrId);
+	}
+
+	public void initDrawableArray(int drawableArrId) {
+		mArrayAttributeExtractor.initDrawableArray(drawableArrId);
+	}
+
+	protected View getConvertView() {
+		return mConvertView;
+	}
+
+	protected ArrayAttributeExtractor getArrayAttributeExtractor() {
+		return mArrayAttributeExtractor;
+	}
+
+	public abstract void setListItemWith(Object item);
+
+	public abstract void setListItemIn(int position);
 }

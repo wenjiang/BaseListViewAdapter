@@ -5,5 +5,9 @@
     <color name="common_bg_frame_line">#dddddd</color>
     <color name="common_bg_frame_white">#fafafa</color>
     <color name="downloaded_annex_operation_bg">#dddddd</color>
+    <color name="background_color">#ededed</color>
+    <color name="common_textcolor_secondary">#6d6d6d</color>
+    <color name="common_textcolor_fifthary">#aeaeae</color>
+    <color name="white">#ffffff</color>
 
 </resources>

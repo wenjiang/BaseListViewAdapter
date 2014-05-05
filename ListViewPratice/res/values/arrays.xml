@@ -19,5 +19,14 @@
         <item>@drawable/college_img_public_normal</item>
         <item>@drawable/college_img_collection_normal</item>
     </array>
+    
+    <string-array name="setting_list_text">
+        <item>个人设置</item>
+        <item>清除缓存</item>
+        <item>来去电消息提醒</item>
+        <item>新版检查</item>
+        <item>更新人员索引</item>
+        <item>关于</item>
+    </string-array>
 
 </resources>

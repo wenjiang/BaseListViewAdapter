@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal" >
+    android:background="@drawable/shape_common_frame_bg"
+    android:orientation="vertical" >
 
     <ListView
         android:id="@+id/list"

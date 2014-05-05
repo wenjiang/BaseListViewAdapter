@@ -29,38 +29,14 @@ public class MainActivity extends Activity {
 		// BaseListViewAdapter adapter = new BaseListViewAdapter(this, holder,
 		// R.layout.common_list_item, peoples);
 
-		ContactViewHolder holder = new ContactViewHolder(this,
-				R.array.contact_attr);
-		BaseListViewAdapter adapter = new BaseListViewAdapter(this, holder,
-				R.layout.colleague_list_item);
+		// ContactViewHolder holder = new ContactViewHolder(this);
+		SettingViewHolder settingViewHolder = new SettingViewHolder(this);
+		settingViewHolder.initTextArray(R.array.setting_list_text);
+		// BaseListViewAdapter adapter = new BaseListViewAdapter(this, holder,
+		// R.layout.colleague_list_item);
+		BaseListViewAdapter adapter = new BaseListViewAdapter(this,
+				settingViewHolder, R.layout.setting_item);
 		listView.setAdapter(adapter);
-		listView.setOnItemClickListener(new OnItemClickListener() {
-
-			@Override
-			public void onItemClick(AdapterView<?> parent, View view,
-					int position, long id) {
-				switch (position) {
-				case 0:
-					Toast.makeText(MainActivity.this, "组织架构",
-							Toast.LENGTH_SHORT).show();
-					break;
-				case 1:
-					Toast.makeText(MainActivity.this, "多人会话",
-							Toast.LENGTH_SHORT).show();
-					break;
-				case 2:
-					Toast.makeText(MainActivity.this, "公共账号",
-							Toast.LENGTH_SHORT).show();
-					break;
-				case 3:
-					Toast.makeText(MainActivity.this, "我的收藏",
-							Toast.LENGTH_SHORT).show();
-					break;
-				default:
-					break;
-				}
-			}
-		});
 	}
 
 	@Override
