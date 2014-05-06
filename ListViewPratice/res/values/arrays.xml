@@ -19,7 +19,7 @@
         <item>@drawable/college_img_public_normal</item>
         <item>@drawable/college_img_collection_normal</item>
     </array>
-    
+
     <string-array name="setting_list_text">
         <item>个人设置</item>
         <item>清除缓存</item>

@@ -32,7 +32,7 @@ public abstract class BaseViewHolder {
 		mArrayAttributeExtractor.initDrawableArray(drawableArrId);
 	}
 
-	protected View getConvertView() {
+	public View getConvertView() {
 		return mConvertView;
 	}
 
