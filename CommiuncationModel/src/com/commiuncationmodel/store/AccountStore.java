@@ -1,6 +1,9 @@
 package com.commiuncationmodel.store;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import com.commiuncationmodel.model.User;
 
 public class AccountStore {
 
@@ -8,20 +11,11 @@ public class AccountStore {
 		return null;
 	}
 
-	public String getName() {
+	public ArrayList<User> getUsers() {
 		return null;
 	}
 
-	public String getDate() {
+	public List<User> getColleagues() {
 		return null;
 	}
-
-	public String getImageUrl() {
-		return null;
-	}
-
-	public List<String> getLastMessage() {
-		return null;
-	}
-
 }
